@@ -6,4 +6,6 @@ In this case, the data was electoral votes, so specialized tilegram designed by 
 
 Live version can be viewed here: http://interactive.aljazeera.com/aje/live-results-us-election-day-2016/index.html
 
+Disclaimer: This was my freelance gig, all trademark, copyrights and intellectual property rights rest with Al Jazeera Media Network.
+
 ![Screenshot](https://raw.github.com/sarmadsaleem/aljazeera-america-votes-2016/master/screenshot.png)
