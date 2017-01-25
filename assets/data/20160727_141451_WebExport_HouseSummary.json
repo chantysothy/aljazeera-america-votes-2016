@@ -1,0 +1,27 @@
+{
+  "Test": true,
+  "Parties": [
+    {
+      "Party": "DEM",
+      "Won": "201",
+      "Leading": "0",
+      "Holdovers": "0",
+      "WinningTrend": "201",
+      "Current": "193",
+      "InsufficientVote": "0",
+      "NetChangeWinners": "+8",
+      "NetChnageLeaders": "0"
+    },
+    {
+      "Party": "GOP",
+      "Won": "234",
+      "Leading": "0",
+      "Holdovers": "0",
+      "WinningTrend": "234",
+      "Current": "242",
+      "InsufficientVote": "0",
+      "NetChangeWinners": "-8",
+      "NetChnageLeaders": "0"
+    }
+  ]
+}

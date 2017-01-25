@@ -1,0 +1,474 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "ajicon";
+  src:url("../fonts/ajicon.eot");
+  src:url("../fonts/ajicon.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/ajicon.woff") format("woff"),
+    url("../fonts/ajicon.ttf") format("truetype"),
+    url("../fonts/ajicon.svg#ajicon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "ajicon" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "ajicon" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-google-plus:before {
+  content: "\61";
+}
+.icon-rss:before {
+  content: "\62";
+}
+.icon-youtube-play:before {
+  content: "\63";
+}
+.icon-instagram:before {
+  content: "\64";
+}
+.icon-twitter:before {
+  content: "\65";
+}
+.icon-facebook:before {
+  content: "\66";
+}
+
+
+@font-face {font-family: 'HelveticaNeueLTStd-Bd';src: url('../fonts/2794C7_0_0.eot');src: url('../fonts/2794C7_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2794C7_0_0.woff') format('woff'),url('../fonts/2794C7_0_0.ttf') format('truetype');}  
+@font-face {font-family: 'HelveticaNeueLTStd-BdIt';src: url('../fonts/2794C7_1_0.eot');src: url('../fonts/2794C7_1_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2794C7_1_0.woff') format('woff'),url('../fonts/2794C7_1_0.ttf') format('truetype');}
+@font-face {font-family: 'HelveticaNeueLTStd-Roman';src: url('../fonts/2794C7_2_0.eot');src: url('../fonts/2794C7_2_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2794C7_2_0.woff') format('woff'),url('../fonts/2794C7_2_0.ttf') format('truetype');}
+@font-face {font-family: 'HelveticaNeueLTStd-Th';src: url('../fonts/2794C7_3_0.eot');src: url('../fonts/2794C7_3_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2794C7_3_0.woff') format('woff'),url('../fonts/2794C7_3_0.ttf') format('truetype');}
+@font-face {font-family: 'HelveticaNeueLTStd-It';src: url('../fonts/2794C7_4_0.eot');src: url('../fonts/2794C7_4_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2794C7_4_0.woff') format('woff'),url('../fonts/2794C7_4_0.ttf') format('truetype');}
+@font-face {font-family: 'HelveticaNeueLTStd-ThIt';src: url('../fonts/2794C7_5_0.eot');src: url('../fonts/2794C7_5_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2794C7_5_0.woff') format('woff'),url('../fonts/2794C7_5_0.ttf') format('truetype');}
+
+
+.fhnp-th{font-family: "HelveticaNeueLTStd-Th"}
+.fhnp-bd{font-family: "HelveticaNeueLTStd-Bd"}
+
+/* pull to refresh */
+
+#ptr {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	color: #fff;
+	z-index: 0;
+	text-align: center;
+	height: 50px;
+}
+
+#ptr .genericon {
+	opacity: .6;
+	font-size: 34px;
+	width: auto;
+	height: auto;
+	transition: all .25s ease;
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+	margin-top: 5px;
+}
+.ptr-refresh #ptr .genericon {
+	-webkit-transform: rotate(270deg);
+	transform: rotate(270deg);
+}
+.ptr-loading #ptr .genericon,
+.ptr-reset #ptr .genericon {
+	display: none;
+}
+
+.loading {
+	display: inline-block;
+	text-align: center;
+	opacity: .4;
+	margin: 12px 0 0 5px;
+	display: none;
+}
+.ptr-loading .loading {
+	display: block;
+}
+
+.loading span {
+	display: inline-block;
+	vertical-align: middle;
+	width: 10px;
+	height: 10px;
+	margin-right: 3px;
+	-webkit-transform: scale(0.3);
+	transform: scale(0.3);
+	border-radius: 50%;
+	-webkit-animation: ptr-loading 0.4s infinite alternate;
+	animation: ptr-loading 0.4s infinite alternate;
+}
+
+#l1 {
+	-webkit-animation-delay: 0;
+	animation-delay: 0;
+}
+
+#l2 {
+	-webkit-animation-delay: 0.2s;
+	animation-delay: 0.2s;
+}
+
+#l3 {
+	-webkit-animation-delay: 0.4s;
+	animation-delay: 0.4s;
+}
+
+@-webkit-keyframes ptr-loading {
+	0% {
+		-webkit-transform: translateY(0) scale(0.3);
+		transform: translateY(0) scale(0.3);
+		opacity: 0;
+	}
+
+	100% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		background-color: #fff;
+		opacity: 1;
+	}
+}
+
+@keyframes ptr-loading {
+	0% {
+		-webkit-transform: translateY(0) scale(0.3);
+		transform: translateY(0) scale(0.3);
+		opacity: 0;
+	}
+
+	100% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		background-color: #fff;
+		opacity: 1;
+	}
+}
+
+#content {
+	
+	min-height: 100%;
+	z-index: 20;
+	-webkit-backface-visibility: hidden;
+	-webkit-perspective: 1000;
+	box-sizing: border-box;
+}
+
+.ptr-loading #content, .ptr-reset #content,
+.ptr-loading #ptr, .ptr-reset #ptr {
+	transition: all .25s ease;
+}
+
+.ptr-reset #content {
+	-webkit-transform: translate3d( 0, 0, 0 );
+	transform: translate3d( 0, 0, 0 );
+}
+
+.ptr-loading #content {
+	-webkit-transform: translate3d( 0, 50px, 0 );
+	transform: translate3d( 0, 50px, 0 );
+}
+/* pull to refresh */
+
+
+/* globals */
+.fgeo{font-family: Georgia, Times, "Times New Roman", serif;}
+
+/* colors */
+.democrats{color:#073D7D;}
+.republicans{color:#B40010;}
+
+/* custom */
+.aj-head{
+	background:url('../img/head.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 80px;
+	max-height: 80px;
+}
+
+.aj-logo{text-align: center;}
+
+.aj-logo img{
+	width:110px;
+}
+
+.aj-timestamp{
+	color:#666666;
+	font-size:12px;
+	margin-top:0px;
+}
+
+.aj-h1{
+	font-size:50px;
+	font-weight: 100;
+	margin:10px 0px 10px 0; 
+}
+
+.aj-h1-v{
+	margin:10px;font-weight:300;font-size:34px;font-family: "HelveticaNeueLTStd-Th";
+}
+
+.aj-ac{
+	display: inline-block;
+	margin-top:20px;
+}
+
+.aj-count{
+	display:inline;
+	font-size:70px;
+	font-weight: 300;
+	margin:5px 5px 0 5px;
+}
+
+.line{
+	border-bottom:10px solid #ccc;
+
+}
+
+.aj-ac .aj-avatar{
+	position: relative; 
+   	width: 150px;
+   	margin-top:-185px;
+}
+
+.aj-ac .aj-ah1{
+	position: absolute;
+	color:#fff;
+   text-transform: uppercase;
+   font-weight: 600;
+   font-size: 24px;
+   text-shadow: 2px 2px 3px rgba(0,0,0,0.9);
+      top: 90px; 
+   left: 22px; 
+}
+
+.aj-ac .aj-ah2{
+	position: absolute;
+	color:#fff;
+   text-transform: uppercase;
+   font-weight: 600;
+   font-size: 24px;
+   text-shadow: 2px 2px 3px rgba(0,0,0,0.9);
+   top: 90px; 
+   right: 30px; 
+
+}
+
+#footer-secondary2 nav a{
+	margin-right:20px;
+	color:#666666;
+	font-size:18px;
+	font-weight: 500;
+}
+
+#footer-primary h2{
+	color:#666;
+	font-size:18px;
+}
+
+#footer-primary nav a{
+	display:block;
+	color:#666;
+	margin:5px 0 5px 0;
+	font-size:14px;
+}
+
+#hc-popvote{color:#3399CC;font-size:40px; font-weight: 600;}
+#hc-poppct{color:#073D7D;font-size:40px; font-weight: 600;}
+
+#dt-popvote{color:#B40010;font-size:40px; font-weight: 600;}
+#dt-poppct{color:#B40010;font-size:40px; font-weight: 600;}
+.pct{font-size:24px;}
+.aj-lr-text{margin:10px 80px 0 80px;font-size:20px; font-style:italic;}
+.aj-lr-h{margin:5px; font-weight:600; font-size:22px;}
+.aj-lr-tl{font-size:18px; font-weight: 600;line-height: 54px; color:#333333;}
+.aj-fs-nav1{float:left;margin-left:15px;}
+.aj-fs-nav2{float:right;}
+.aj-fs-nav2 a:hover{text-decoration: none;}
+.aj-fs-nav2 a{cursor: pointer;}
+
+.aj-fs-ajlc{margin:30px 30px 30px 0;}
+.aj-fs-ajlc a{color:#333;font-weight: 300; font-size:26px;}
+
+
+#aj-ahc{width:150px;}
+#aj-adt{width:150px;}
+
+/* senate */
+.aj-ss{float:left; height: 30px;}
+.aj-ss .aj-s-bar{outline:2px solid #fff;width: 100%;}
+.aj-ss .aj-s-label{text-align:center;font-size:18px;font-weight:600;white-space: nowrap;}
+.aj-ss .aj-s-count{text-align:center;font-size:70px;font-weight: 300;line-height:70px;}
+
+.aj-l-p{display: inline-block; margin:10px;}
+
+/* gubernatorial */
+.aj-g-state span{font-size:18px; vertical-align: bottom;}
+.aj-g-cand{font-weight: 500;color:#666666;font-size:14px;}
+
+/* footer */
+.aj-f-cred {text-align:right}
+
+.pebg{background:rgba(204,204,204,0.2);margin-top:10px;}
+
+/* map */
+.tile{fill:#FF9900;stroke:#666666; stroke-width:0.12px;}
+.state-boundary {
+  fill: none;
+  stroke: #333333;
+  stroke-width:1px;
+}
+
+.state-label{
+  fill:#000;
+  /*border:3px solid #000;
+  stroke: #000;*/
+  /*stroke-width:2px;*/
+  visibility: hidden;
+  font-size:20px;
+}
+
+.state-label-container{
+
+  fill:#fff;
+  stroke: #000;
+  visibility: hidden;
+
+}
+
+.svg-container { 
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	padding-bottom: 100%; 
+	vertical-align: middle; 
+	overflow: hidden;
+}
+.svg-content { 
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#gubernatorial-results{margin-top:-20px;}
+
+
+.dem{fill:#073D7D;}
+.rep{fill:#B40010;}
+
+.ufcp{fill:#fff;}
+.ufcp-d{fill:#3399CC !important;stroke:none;}
+.ufcp-r{fill:#CC0000 !important;stroke:none;}
+.ufcp-i{fill:#FF6600 !important;stroke:none;}
+
+
+
+/* media queries */
+
+@media only screen and (max-width: 1024px) {
+    .aj-lr-text{margin:10px;}
+}
+					
+@media only screen and (max-width: 768px){
+
+	.aj-h1{font-size:30px;margin-top:50px;}
+	#hc-electwon{font-size:45px;}
+	#dt-electwon{font-size:45px;}
+	#hc-popvote{font-size:28px;}
+	#hc-poppct{font-size:28px;}
+	#dt-popvote{font-size:28px;}
+	#dt-poppct{font-size:28px;}
+	.aj-lr-tl{line-height: 38px;}
+	.aj-ss .aj-s-label{font-size:12px;}
+	.aj-ss .aj-s-count{font-size:42px;font-weight: 300;}
+	.aj-h1-v{font-size:28px;}
+
+	.aj-fs-nav1{float:none; text-align: center;}
+	.aj-fs-nav2{float:none; text-align: center; margin-top:15px;}
+
+	.aj-fs-ajlc{text-align: center;}
+
+}
+
+@media only screen and (max-width: 990px){
+	.aj-f-cred {text-align:center; margin-top:30px;}
+}
+
+@media only screen and (max-width: 680px){
+	#senate_svg{margin-top:-60px;}
+	.aj-s-label{visibility: hidden;}
+}
+
+@media only screen and (max-width: 767px){
+	.aj-f-cred {text-align:center; margin-top:320px;}
+
+	
+}
+
+@media only screen and (max-width: 440px){
+
+	#hc-popvote{font-size:22px;}
+	#hc-poppct{font-size:22px;}
+	#dt-popvote{font-size:22px;}
+	#dt-poppct{font-size:22px;}
+	.aj-lr-tl{line-height: 32px;}
+
+	#senate_svg{margin-top:-120px;}
+
+
+
+}
+
+@media only screen and (max-width: 400px){
+
+		#hc-electwon{font-size:30px;}
+	#dt-electwon{font-size:30px;}
+
+	
+}
+
+@media only screen and (max-width: 520px){
+
+	.aj-ac .aj-avatar{width:100px;margin-top:-135px;}
+	#aj-ahc{width:100px;}
+	#aj-adt{width:100px;}
+	.aj-ac .aj-ah1{top: 58px;left: 18px;font-size:15px;}
+	.aj-ac .aj-ah2{top: 58px;right: 21px;font-size:15px;}
+
+	.aj-lr-h{margin-top:40px;}
+
+	#senate_svg{margin-top:-80px;}
+
+	#gubernatorial-results{margin-top:-80px;}
+
+	#senate_svg{margin-top:-100px;}
+
+}
+

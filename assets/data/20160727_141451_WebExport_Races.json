@@ -1,0 +1,1987 @@
+{
+  "Race": [
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "AK",
+      "PrecinctsReporting": 415,
+      "PrecinctsTotal": 438,
+      "PrecinctReportingPct": 94,
+      "WinningParty": "GOP",
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 137514,
+          "VotePercentage": 58.6476170167395,
+          "Winner": "X",
+          "ElectoralVotes": 3
+        },
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 96961,
+          "VotePercentage": 41.3523829832605,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 3,
+        "PartyTrend": -1,
+        "PollClose": "01:00"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "AL",
+      "PrecinctsReporting": 1695,
+      "PrecinctsTotal": 1695,
+      "PrecinctReportingPct": 100,
+      "WinningParty": "GOP",
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 1259467,
+          "VotePercentage": 61,
+          "Winner": "X",
+          "ElectoralVotes": 9
+        },
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 805233,
+          "VotePercentage": 39,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 9,
+        "PartyTrend": -2,
+        "PollClose": "08:00"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "AR",
+      "PrecinctsReporting": 2386,
+      "PrecinctsTotal": 2386,
+      "PrecinctReportingPct": 100,
+      "WinningParty": "GOP",
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 664721,
+          "VotePercentage": 62.9999819924501,
+          "Winner": "X",
+          "ElectoralVotes": 6
+        },
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 390392,
+          "VotePercentage": 37.0000180075499,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 6,
+        "PartyTrend": 1,
+        "PollClose": "08:30"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "AZ",
+      "PrecinctsReporting": 1667,
+      "PrecinctsTotal": 1667,
+      "PrecinctReportingPct": 100,
+      "WinningParty": "GOP",
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 1181257,
+          "VotePercentage": 56.0000132739986,
+          "Winner": "X",
+          "ElectoralVotes": 11
+        },
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 928130,
+          "VotePercentage": 43.9999867260014,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 11,
+        "PartyTrend": 0,
+        "PollClose": "09:00"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "CA",
+      "PrecinctsReporting": 24491,
+      "PrecinctsTotal": 24491,
+      "PrecinctReportingPct": 100,
+      "WinningParty": "DEM",
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 6574683,
+          "VotePercentage": 60,
+          "Winner": "X",
+          "ElectoralVotes": 55
+        },
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 4383122,
+          "VotePercentage": 40,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 55,
+        "PartyTrend": 2,
+        "PollClose": "11:00"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "CO",
+      "PrecinctsReporting": 2919,
+      "PrecinctsTotal": 2919,
+      "PrecinctReportingPct": 100,
+      "WinningParty": "DEM",
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 1258243,
+          "VotePercentage": 51.9999801628219,
+          "Winner": "X",
+          "ElectoralVotes": 9
+        },
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 1161456,
+          "VotePercentage": 48.0000198371781,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 9,
+        "PartyTrend": 1,
+        "PollClose": "09:00"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "CT",
+      "PrecinctsReporting": 704,
+      "PrecinctsTotal": 704,
+      "PrecinctReportingPct": 100,
+      "WinningParty": "DEM",
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 921691,
+          "VotePercentage": 59.0000051210226,
+          "Winner": "X",
+          "ElectoralVotes": 7
+        },
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 640497,
+          "VotePercentage": 40.9999948789774,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 7,
+        "PartyTrend": 2,
+        "PollClose": "08:00"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "DC",
+      "PrecinctsReporting": 143,
+      "PrecinctsTotal": 143,
+      "PrecinctReportingPct": 100,
+      "WinningParty": "DEM",
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 221447,
+          "VotePercentage": 90.9997575498564,
+          "Winner": "X",
+          "ElectoralVotes": 3
+        },
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 21902,
+          "VotePercentage": 9.00024245014362,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 3,
+        "PartyTrend": -1,
+        "PollClose": "08:00"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "DE",
+      "PrecinctsReporting": 433,
+      "PrecinctsTotal": 433,
+      "PrecinctReportingPct": 100,
+      "WinningParty": "DEM",
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 244168,
+          "VotePercentage": 58.9998671000012,
+          "Winner": "X",
+          "ElectoralVotes": 3
+        },
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 169677,
+          "VotePercentage": 41.0001328999988,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 3,
+        "PartyTrend": 0,
+        "PollClose": "08:00"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "FL",
+      "PrecinctsReporting": 6089,
+      "PrecinctsTotal": 6089,
+      "PrecinctReportingPct": 100,
+      "WinningParty": "DEM",
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 4319805,
+          "VotePercentage": 50.9999992916347,
+          "Winner": "X",
+          "ElectoralVotes": 29
+        },
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 4150401,
+          "VotePercentage": 49.0000007083653,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 29,
+        "PartyTrend": -2,
+        "PollClose": "08:00"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "GA",
+      "PrecinctsReporting": 2844,
+      "PrecinctsTotal": 2844,
+      "PrecinctReportingPct": 100,
+      "WinningParty": "GOP",
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 2132371,
+          "VotePercentage": 54.9999883932042,
+          "Winner": "X",
+          "ElectoralVotes": 16
+        },
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 1744668,
+          "VotePercentage": 45.0000116067958,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 16,
+        "PartyTrend": -2,
+        "PollClose": "07:00"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "HI",
+      "PrecinctsReporting": 250,
+      "PrecinctsTotal": 250,
+      "PrecinctReportingPct": 100,
+      "WinningParty": "DEM",
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 300646,
+          "VotePercentage": 69.9998835842094,
+          "Winner": "X",
+          "ElectoralVotes": 4
+        },
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 128849,
+          "VotePercentage": 30.0001164157906,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 4,
+        "PartyTrend": -1,
+        "PollClose": "11:00"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "IA",
+      "PrecinctsReporting": 1689,
+      "PrecinctsTotal": 1689,
+      "PrecinctReportingPct": 100,
+      "WinningParty": "GOP",
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 908262,
+          "VotePercentage": 57.9999987228355,
+          "Winner": "X",
+          "ElectoralVotes": 6
+        },
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 657707,
+          "VotePercentage": 42.0000012771645,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 6,
+        "PartyTrend": 2,
+        "PollClose": "10:00"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "ID",
+      "PrecinctsReporting": 967,
+      "PrecinctsTotal": 967,
+      "PrecinctReportingPct": 100,
+      "WinningParty": "GOP",
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 443273,
+          "VotePercentage": 68.000006136174,
+          "Winner": "X",
+          "ElectoralVotes": 4
+        },
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 208599,
+          "VotePercentage": 31.999993863826,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 4,
+        "PartyTrend": 0,
+        "PollClose": "11:00"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "IL",
+      "PrecinctsReporting": 10089,
+      "PrecinctsTotal": 10089,
+      "PrecinctReportingPct": 100,
+      "WinningParty": "DEM",
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 2901905,
+          "VotePercentage": 56.9999933216292,
+          "Winner": "X",
+          "ElectoralVotes": 20
+        },
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 2189157,
+          "VotePercentage": 43.0000066783708,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 20,
+        "PartyTrend": 1,
+        "PollClose": "08:00"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "IN",
+      "PrecinctsReporting": 5319,
+      "PrecinctsTotal": 5319,
+      "PrecinctReportingPct": 100,
+      "WinningParty": "GOP",
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 1457615,
+          "VotePercentage": 55.9999984632431,
+          "Winner": "X",
+          "ElectoralVotes": 11
+        },
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 1145269,
+          "VotePercentage": 44.0000015367569,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 11,
+        "PartyTrend": 2,
+        "PollClose": "07:00"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "KS",
+      "PrecinctsReporting": 3565,
+      "PrecinctsTotal": 3565,
+      "PrecinctReportingPct": 100,
+      "WinningParty": "GOP",
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 701372,
+          "VotePercentage": 62.0000088398181,
+          "Winner": "X",
+          "ElectoralVotes": 6
+        },
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 429873,
+          "VotePercentage": 37.9999911601819,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 6,
+        "PartyTrend": 1,
+        "PollClose": "09:00"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "KY",
+      "PrecinctsReporting": 3622,
+      "PrecinctsTotal": 3622,
+      "PrecinctReportingPct": 100,
+      "WinningParty": "GOP",
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 1113977,
+          "VotePercentage": 62.0000033393869,
+          "Winner": "X",
+          "ElectoralVotes": 8
+        },
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 682760,
+          "VotePercentage": 37.9999966606131,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 8,
+        "PartyTrend": 0,
+        "PollClose": "07:00"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "LA",
+      "PrecinctsReporting": 3564,
+      "PrecinctsTotal": 3564,
+      "PrecinctReportingPct": 100,
+      "WinningParty": "GOP",
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 1176198,
+          "VotePercentage": 58.9999979935352,
+          "Winner": "X",
+          "ElectoralVotes": 8
+        },
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 817358,
+          "VotePercentage": 41.0000020064648,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 8,
+        "PartyTrend": -1,
+        "PollClose": "09:00"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "MA",
+      "PrecinctsReporting": 2172,
+      "PrecinctsTotal": 2172,
+      "PrecinctReportingPct": 100,
+      "WinningParty": "DEM",
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 1908162,
+          "VotePercentage": 60.9999888112246,
+          "Winner": "X",
+          "ElectoralVotes": 11
+        },
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 1219973,
+          "VotePercentage": 39.0000111887754,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 11,
+        "PartyTrend": -1,
+        "PollClose": "08:00"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "MD",
+      "PrecinctsReporting": 1858,
+      "PrecinctsTotal": 1858,
+      "PrecinctReportingPct": 100,
+      "WinningParty": "DEM",
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 1535093,
+          "VotePercentage": 61.999986267936,
+          "Winner": "X",
+          "ElectoralVotes": 10
+        },
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 940864,
+          "VotePercentage": 38.000013732064,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 10,
+        "PartyTrend": -2,
+        "PollClose": "08:00"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "ME",
+      "PrecinctsReporting": 599,
+      "PrecinctsTotal": 599,
+      "PrecinctReportingPct": 100,
+      "WinningParty": "DEM",
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 398014,
+          "VotePercentage": 56.00002251178,
+          "Winner": "X",
+          "ElectoralVotes": 4
+        },
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 312725,
+          "VotePercentage": 43.99997748822,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 4,
+        "PartyTrend": -2,
+        "PollClose": "08:00"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "MI",
+      "PrecinctsReporting": 5099,
+      "PrecinctsTotal": 5099,
+      "PrecinctReportingPct": 100,
+      "WinningParty": "DEM",
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 2594751,
+          "VotePercentage": 55.000001059832,
+          "Winner": "X",
+          "ElectoralVotes": 16
+        },
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 2122978,
+          "VotePercentage": 44.999998940168,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 16,
+        "PartyTrend": 0,
+        "PollClose": "09:00"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "MN",
+      "PrecinctsReporting": 4102,
+      "PrecinctsTotal": 4102,
+      "PrecinctReportingPct": 100,
+      "WinningParty": "DEM",
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 1552340,
+          "VotePercentage": 53.000007169822,
+          "Winner": "X",
+          "ElectoralVotes": 10
+        },
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 1376603,
+          "VotePercentage": 46.999992830178,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 10,
+        "PartyTrend": 1,
+        "PollClose": "09:00"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "MO",
+      "PrecinctsReporting": 3394,
+      "PrecinctsTotal": 3394,
+      "PrecinctReportingPct": 100,
+      "WinningParty": "GOP",
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 1537013,
+          "VotePercentage": 56.0000014573722,
+          "Winner": "X",
+          "ElectoralVotes": 10
+        },
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 1207653,
+          "VotePercentage": 43.9999985426278,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 10,
+        "PartyTrend": 2,
+        "PollClose": "08:00"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "MS",
+      "PrecinctsReporting": 1889,
+      "PrecinctsTotal": 1889,
+      "PrecinctReportingPct": 100,
+      "WinningParty": "GOP",
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 679843,
+          "VotePercentage": 56.0000164743967,
+          "Winner": "X",
+          "ElectoralVotes": 6
+        },
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 534162,
+          "VotePercentage": 43.9999835256033,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 6,
+        "PartyTrend": 2,
+        "PollClose": "08:00"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "MT",
+      "PrecinctsReporting": 794,
+      "PrecinctsTotal": 794,
+      "PrecinctReportingPct": 100,
+      "WinningParty": "GOP",
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 278044,
+          "VotePercentage": 57.999904044123,
+          "Winner": "X",
+          "ElectoralVotes": 3
+        },
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 201343,
+          "VotePercentage": 42.000095955877,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 3,
+        "PartyTrend": 1,
+        "PollClose": "10:00"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "NC",
+      "PrecinctsReporting": 2760,
+      "PrecinctsTotal": 2760,
+      "PrecinctReportingPct": 100,
+      "WinningParty": "GOP",
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 2294510,
+          "VotePercentage": 50.9999911092144,
+          "Winner": "X",
+          "ElectoralVotes": 15
+        },
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 2204530,
+          "VotePercentage": 49.0000088907856,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 15,
+        "PartyTrend": 1,
+        "PollClose": "07:30"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "ND",
+      "PrecinctsReporting": 426,
+      "PrecinctsTotal": 426,
+      "PrecinctReportingPct": 100,
+      "WinningParty": "GOP",
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 195094,
+          "VotePercentage": 61.000043773802,
+          "Winner": "X",
+          "ElectoralVotes": 3
+        },
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 124732,
+          "VotePercentage": 38.999956226198,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 3,
+        "PartyTrend": 2,
+        "PollClose": "09:00"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "NE",
+      "PrecinctsReporting": 1830,
+      "PrecinctsTotal": 1830,
+      "PrecinctReportingPct": 100,
+      "WinningParty": "GOP",
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 474352,
+          "VotePercentage": 61.9999895436318,
+          "Winner": "X",
+          "ElectoralVotes": 5
+        },
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 290732,
+          "VotePercentage": 38.0000104563682,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 5,
+        "PartyTrend": 0,
+        "PollClose": "09:00"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "NH",
+      "PrecinctsReporting": 301,
+      "PrecinctsTotal": 301,
+      "PrecinctReportingPct": 100,
+      "WinningParty": "DEM",
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 367055,
+          "VotePercentage": 52,
+          "Winner": "X",
+          "ElectoralVotes": 4
+        },
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 338820,
+          "VotePercentage": 48,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 4,
+        "PartyTrend": -2,
+        "PollClose": "08:00"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "NJ",
+      "PrecinctsReporting": 6338,
+      "PrecinctsTotal": 6338,
+      "PrecinctReportingPct": 100,
+      "WinningParty": "DEM",
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 1959720,
+          "VotePercentage": 58.0000100626638,
+          "Winner": "X",
+          "ElectoralVotes": 14
+        },
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 1419107,
+          "VotePercentage": 41.9999899373362,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 14,
+        "PartyTrend": -2,
+        "PollClose": "08:00"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "NM",
+      "PrecinctsReporting": 1510,
+      "PrecinctsTotal": 1510,
+      "PrecinctReportingPct": 100,
+      "WinningParty": "DEM",
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 409335,
+          "VotePercentage": 53.0000129478332,
+          "Winner": "X",
+          "ElectoralVotes": 5
+        },
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 362995,
+          "VotePercentage": 46.9999870521668,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 5,
+        "PartyTrend": -1,
+        "PollClose": "09:00"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "NV",
+      "PrecinctsReporting": 1912,
+      "PrecinctsTotal": 1912,
+      "PrecinctReportingPct": 100,
+      "WinningParty": "DEM",
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 535886,
+          "VotePercentage": 52.9999821977122,
+          "Winner": "X",
+          "ElectoralVotes": 6
+        },
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 475220,
+          "VotePercentage": 47.0000178022878,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 6,
+        "PartyTrend": -1,
+        "PollClose": "10:00"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "NY",
+      "PrecinctsReporting": 15140,
+      "PrecinctsTotal": 15140,
+      "PrecinctReportingPct": 100,
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 3899059,
+          "VotePercentage": 62.9999953142544,
+          "ElectoralVotes": 29
+        },
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 2289924,
+          "VotePercentage": 37.0000046857456,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 29,
+        "PartyTrend": 0,
+        "PollClose": "09:00"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "OH",
+      "PrecinctsReporting": 9550,
+      "PrecinctsTotal": 9550,
+      "PrecinctReportingPct": 100,
+      "WinningParty": "DEM",
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 2743336,
+          "VotePercentage": 50.9999923778943,
+          "Winner": "X",
+          "ElectoralVotes": 18
+        },
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 2635755,
+          "VotePercentage": 49.0000076221057,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 18,
+        "PartyTrend": 2,
+        "PollClose": "07:30"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "OK",
+      "PrecinctsReporting": 1960,
+      "PrecinctsTotal": 1960,
+      "PrecinctReportingPct": 100,
+      "WinningParty": "GOP",
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 892453,
+          "VotePercentage": 66.9999699704209,
+          "Winner": "X",
+          "ElectoralVotes": 7
+        },
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 439567,
+          "VotePercentage": 33.0000300295791,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 7,
+        "PartyTrend": 1,
+        "PollClose": "08:00"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "OR",
+      "PrecinctsReporting": 1000,
+      "PrecinctsTotal": 1000,
+      "PrecinctReportingPct": 100,
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 928953,
+          "VotePercentage": 53.9999790732228,
+          "ElectoralVotes": 7
+        },
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 791331,
+          "VotePercentage": 46.0000209267772,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 7,
+        "PartyTrend": 0,
+        "PollClose": "11:00"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "PA",
+      "PrecinctsReporting": 9250,
+      "PrecinctsTotal": 9250,
+      "PrecinctReportingPct": 100,
+      "WinningParty": "DEM",
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 2910180,
+          "VotePercentage": 52,
+          "Winner": "X",
+          "ElectoralVotes": 20
+        },
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 2686320,
+          "VotePercentage": 48,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 20,
+        "PartyTrend": -1,
+        "PollClose": "08:00"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "RI",
+      "PrecinctsReporting": 413,
+      "PrecinctsTotal": 413,
+      "PrecinctReportingPct": 100,
+      "WinningParty": "DEM",
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 275550,
+          "VotePercentage": 62.9999931409915,
+          "Winner": "X",
+          "ElectoralVotes": 4
+        },
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 161831,
+          "VotePercentage": 37.0000068590085,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 4,
+        "PartyTrend": -2,
+        "PollClose": "08:00"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "SC",
+      "PrecinctsReporting": 2141,
+      "PrecinctsTotal": 2141,
+      "PrecinctReportingPct": 100,
+      "WinningParty": "GOP",
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 1075964,
+          "VotePercentage": 56.0000083274174,
+          "Winner": "X",
+          "ElectoralVotes": 9
+        },
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 845400,
+          "VotePercentage": 43.9999916725826,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 9,
+        "PartyTrend": -2,
+        "PollClose": "07:00"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "SD",
+      "PrecinctsReporting": 5141,
+      "PrecinctsTotal": 5141,
+      "PrecinctReportingPct": 100,
+      "WinningParty": "GOP",
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 218217,
+          "VotePercentage": 60,
+          "Winner": "X",
+          "ElectoralVotes": 3
+        },
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 145478,
+          "VotePercentage": 40,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 3,
+        "PartyTrend": -1,
+        "PollClose": "09:00"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "TN",
+      "PrecinctsReporting": 2072,
+      "PrecinctsTotal": 2072,
+      "PrecinctReportingPct": 100,
+      "WinningParty": "GOP",
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 1490111,
+          "VotePercentage": 60.9999979531727,
+          "Winner": "X",
+          "ElectoralVotes": 11
+        },
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 952694,
+          "VotePercentage": 39.0000020468273,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 11,
+        "PartyTrend": 0,
+        "PollClose": "08:00"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "TX",
+      "PrecinctsReporting": 9150,
+      "PrecinctsTotal": 9150,
+      "PrecinctReportingPct": 100,
+      "WinningParty": "GOP",
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 4698052,
+          "VotePercentage": 59,
+          "Winner": "X",
+          "ElectoralVotes": 38
+        },
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 3264748,
+          "VotePercentage": 41,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 38,
+        "PartyTrend": 1,
+        "PollClose": "09:00"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "UT",
+      "PrecinctsReporting": 2335,
+      "PrecinctsTotal": 2335,
+      "PrecinctReportingPct": 100,
+      "WinningParty": "GOP",
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 692476,
+          "VotePercentage": 74.9999458465378,
+          "Winner": "X",
+          "ElectoralVotes": 6
+        },
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 230826,
+          "VotePercentage": 25.0000541534622,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 6,
+        "PartyTrend": 2,
+        "PollClose": "10:00"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "VA",
+      "PrecinctsReporting": 2585,
+      "PrecinctsTotal": 2585,
+      "PrecinctReportingPct": 100,
+      "WinningParty": "DEM",
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 1911408,
+          "VotePercentage": 50.999997598629,
+          "Winner": "X",
+          "ElectoralVotes": 13
+        },
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 1836451,
+          "VotePercentage": 49.000002401371,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 13,
+        "PartyTrend": 1,
+        "PollClose": "07:00"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "VT",
+      "PrecinctsReporting": 275,
+      "PrecinctsTotal": 275,
+      "PrecinctReportingPct": 100,
+      "WinningParty": "DEM",
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 199174,
+          "VotePercentage": 66.9999159027836,
+          "Winner": "X",
+          "ElectoralVotes": 3
+        },
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 98101,
+          "VotePercentage": 33.0000840972164,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 3,
+        "PartyTrend": 2,
+        "PollClose": "07:00"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "WA",
+      "PrecinctsReporting": 2000,
+      "PrecinctsTotal": 2000,
+      "PrecinctReportingPct": 100,
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 1624840,
+          "VotePercentage": 56,
+          "ElectoralVotes": 12
+        },
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 1276660,
+          "VotePercentage": 44,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 12,
+        "PartyTrend": 0,
+        "PollClose": "11:00"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "WI",
+      "PrecinctsReporting": 3540,
+      "PrecinctsTotal": 3540,
+      "PrecinctReportingPct": 100,
+      "WinningParty": "DEM",
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 1620005,
+          "VotePercentage": 52.9999862593052,
+          "Winner": "X",
+          "ElectoralVotes": 10
+        },
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 1436609,
+          "VotePercentage": 47.0000137406948,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 10,
+        "PartyTrend": -2,
+        "PollClose": "09:00"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "WV",
+      "PrecinctsReporting": 312,
+      "PrecinctsTotal": 312,
+      "PrecinctReportingPct": 100,
+      "WinningParty": "GOP",
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 423452,
+          "VotePercentage": 63.9999758178114,
+          "Winner": "X",
+          "ElectoralVotes": 5
+        },
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 238192,
+          "VotePercentage": 36.0000241821886,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 5,
+        "PartyTrend": -1,
+        "PollClose": "07:30"
+      }
+    },
+    {
+      "Date": "20161108",
+      "Type": "General",
+      "TypeId": "G",
+      "Office": "President",
+      "OfficeId": "P",
+      "StatePostal": "WY",
+      "PrecinctsReporting": 481,
+      "PrecinctsTotal": 481,
+      "PrecinctReportingPct": 100,
+      "WinningParty": "GOP",
+      "Released": true,
+      "Test": true,
+      "Candidates": [
+        {
+          "First": "Donald",
+          "Last": "Trump",
+          "Party": "GOP",
+          "VoteCount": 176966,
+          "VotePercentage": 72.0000325486399,
+          "Winner": "X",
+          "ElectoralVotes": 3
+        },
+        {
+          "First": "Hillary",
+          "Middle": "Rodham",
+          "Last": "Clinton",
+          "Party": "DEM",
+          "VoteCount": 68820,
+          "VotePercentage": 27.9999674513601,
+          "ElectoralVotes": 0
+        }
+      ],
+      "StateProfile": {
+        "ElectoralVotes": 3,
+        "PartyTrend": -2,
+        "PollClose": "09:00"
+      }
+    }
+  ]
+}

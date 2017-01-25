@@ -1,0 +1,1188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Al Jazeera</title>
+
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/custom.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <!-- pull to refresh start -->
+    <div id="ptr">
+      <span class="genericon genericon-next"></span>
+      <div class="loading">
+        <span id="l1"></span>
+        <span id="l2"></span>
+        <span id="l3"></span>
+      </div>
+    </div>
+    <!-- pull to refresh end -->
+
+    <!-- content start -->
+    <div id="content">
+
+      <!-- default -->
+            
+            <!-- /default -->
+
+      <!-- head start -->
+      <header id="head">
+        <div class="container-fluid aj-head">
+          <div class="row">
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12 aj-logo"><a href="#"><img src="assets/img/aj-logo.jpg"/></a></div>
+                <div class="col-xs-12 aj-timestamp text-right">Last updated 5m ago</div>
+                
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </header>
+      <!-- head end -->
+
+      <!-- live results start -->
+      <section id="presidency-results">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+
+              <!-- heading -->
+              <h1 class="aj-h1 text-center fhelvnp">America Votes 2016 - Live results</h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid visible-xs pebg">
+          <div class="row">
+            <div class="col-xs-12 text-center">
+              <h1 class="aj-h1-v">PRESIDENTIAL ELECTION</h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+
+
+
+              <hr class="line" style="display:block; margin-top:90px;"/>
+              <div class="row" style="margin-top:-125px;">
+
+                  <!-- first avatar -->
+                  <div class="aj-ac pull-left" style="display:inline">
+                    <div id="aj-ahc"></div>
+                    <img class="aj-avatar" src="assets/img/hillary-avatar.png"/>
+                    <h2 class="aj-ah aj-ah1">CLINTON</h2>
+                  </div>
+
+                  <div class="aj-count pull-left">
+                    <span id="hc-electwon" class="democrats">0</span>
+                  </div>
+
+                  <!-- second avatar -->
+                  <div class="aj-ac pull-right" style="display:inline">
+                    <div id="aj-adt"></div>
+                    <img class="aj-avatar" src="assets/img/trump-avatar.png"/>
+                    <h2 class="aj-ah aj-ah2">TRUMP</h2>
+                  </div>
+
+                  <div class="aj-count pull-right">
+                    <span id="dt-electwon" class="republicans">0</span>
+                  </div>
+
+              </div>
+
+              <div class="row">
+                <div class="col-md-8 col-md-offset-2 col-xs-12 text-center" style="margin-top:-35px;">
+                  <h2 class="aj-lr-h fhnp-bd">270 SEATS TO WIN</h2>
+                  <p class="aj-lr-text fgeo" style="">The cartogram map reflects the number of electoral votes each state has towards the House of Representatives.</p>
+                </div>
+              </div>
+
+              <div class="row text-center" style="margin-top:0px;margin-bottom:30px;">
+                <div class="svg-container"></div>
+              </div>
+
+              <div class="row text-center" style="border-top: 2px solid #CCCCCC; border-bottom: 2px solid #CCCCCC;padding-top:6px;">
+
+                <div id="hc-popvote" class="col-xs-5 text-left fhnp-bd">0</div>
+                <div class="col-xs-2"><span class="aj-lr-tl fhnp-bd">VOTES</span></div>
+                <div id="dt-popvote" class="col-xs-5 text-right fhnp-bd">0</div>
+                
+              </div>
+
+              <div class="row text-center" style="border-bottom: 2px solid #CCCCCC;padding-top: 6px;">
+
+                <div id="hc-poppct" class="col-xs-3 text-left fhnp-bd">0%</div>
+                <div class="col-xs-6"><span class="aj-lr-tl fhnp-bd">POPULAR VOTES</span></div>
+                <div id="dt-poppct" class="col-xs-3 text-right fhnp-bd">0%</div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- live results end -->
+
+
+      <!-- senate results start -->
+      <section id="senate-results">
+        <div class="container-fluid" style="background:rgba(204,204,204,0.2);margin-top:40px;">
+          <div class="row">
+            <div class="col-xs-12 text-center">
+              <h1 class="aj-h1-v">SENATE RESULTS</h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 text-center">
+              <p class="fgeo" style="margin:20px 0 0 0;font-size:20px; font-style:italic;">34 seats are up for election - to determine the majority in the Senate</p>
+              <p style="margin:0px 0 0 0; font-weight:600; font-size:22px;">Every state elects two senators for a staggered tenure</p>
+            </div>
+          </div>
+
+          <div class="row" style="margin-top:20px;">
+            <div class="col-xs-12 text-center">
+
+            <div class="aj-l-p">
+              <div class="svg-container2" style="display:inline-block; width:30px; height:30px;">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" preserveAspectRatio="xMidYMin slice" style="width: 100%; padding-bottom: 69.52%; height: 1px; overflow: visible">
+                  <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3399CC" points="21.793,2.632 28.88,14.906 21.793,27.181 7.62,27.181 
+                  0.533,14.906 7.62,2.632 "/>
+                </svg>
+              </div>
+
+              <h6 style="display:inline-block">DEMOCRATS</h6>              
+            </div>
+
+            <div class="aj-l-p">
+              <div class="svg-container2" style="display:inline-block; width:30px; height:30px;">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" preserveAspectRatio="xMidYMin slice" style="width: 100%; padding-bottom: 69.52%; height: 1px; overflow: visible">
+                  <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#CC0000" points="21.793,2.632 28.88,14.906 21.793,27.181 7.62,27.181 
+                  0.533,14.906 7.62,2.632 "/>
+                </svg>
+              </div>
+
+              <h6 style="display:inline-block">REPUBLICANS</h6>              
+            </div>
+
+            <div class="aj-l-p">
+              <div class="svg-container2" style="display:inline-block; width:30px; height:30px;">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" preserveAspectRatio="xMidYMin slice" style="width: 100%; padding-bottom: 69.52%; height: 1px; overflow: visible">
+                  <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#FF6600" points="21.793,2.632 28.88,14.906 21.793,27.181 7.62,27.181 
+                  0.533,14.906 7.62,2.632 "/>
+                </svg>
+              </div>
+
+              <h6 style="display:inline-block">INDEPENDENT</h6>              
+            </div>
+
+            <div class="aj-l-p">
+              <div class="svg-container2" style="display:inline-block; width:30px; height:30px;">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" preserveAspectRatio="xMidYMin slice" style="width: 100%; padding-bottom: 69.52%; height: 1px; overflow: visible">
+                  <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#666666" points="21.793,2.632 28.88,14.906 21.793,27.181 7.62,27.181 
+                  0.533,14.906 7.62,2.632 "/>
+                </svg>
+              </div>
+
+              <h6 style="display:inline-block">UP FOR CONTEST</h6>              
+            </div>
+            <!--
+            <div class="aj-l-p">
+              <div class="svg-container2" style="display:inline-block; width:30px; height:30px;">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" preserveAspectRatio="xMidYMin slice" style="width: 100%; padding-bottom: 69.52%; height: 1px; overflow: visible">
+                  <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#FFCC00" points="21.793,2.632 28.88,14.906 21.793,27.181 7.62,27.181 
+                  0.533,14.906 7.62,2.632 "/>
+                </svg>
+              </div>
+
+              <h6 style="display:inline-block">Libertarian</h6>              
+            </div>
+
+            <div class="aj-l-p">
+              <div class="svg-container2" style="display:inline-block; width:30px; height:30px;">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" preserveAspectRatio="xMidYMin slice" style="width: 100%; padding-bottom: 69.52%; height: 1px; overflow: visible">
+                  <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#66CC00" points="21.793,2.632 28.88,14.906 21.793,27.181 7.62,27.181 
+                  0.533,14.906 7.62,2.632 "/>
+                </svg>
+              </div>
+
+              <h6 style="display:inline-block">Green</h6>              
+            </div>
+            -->
+
+
+            </div>
+          </div>
+
+          <div class="row" style="margin-top:30px;padding-bottom:90px;">
+            <div class="col-xs-12">
+              <div id="aj-s-parent">
+                <div id="aj-s-rep" class="aj-ss">
+                  <div class="aj-s-label"></div>
+                  <div class="aj-s-bar">&nbsp;</div>
+                  <div class="aj-s-count"></div>
+                </div>
+                <div id="aj-s-ufc" class="aj-ss">
+                  <div class="aj-s-label"></div>
+                  <div class="aj-s-bar">&nbsp;</div>
+                  <div class="aj-s-count"></div>
+                </div>
+                
+                <div id="aj-s-dem" class="aj-ss">
+                  <div class="aj-s-label"></div>
+                  <div class="aj-s-bar">&nbsp;</div>
+                  <div class="aj-s-count"></div>
+                </div>
+                <div id="aj-s-ind" class="aj-ss">
+                  <div class="aj-s-label" style="margin-left:-9px"></div>
+                  <div class="aj-s-bar">&nbsp;</div>
+                  <div class="aj-s-count" style="margin-left:-9px"></div>
+                </div>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+
+            
+          </div>
+
+          <div class="clearfix"></div>
+
+          <div class="row" style="margin-top:40px;">
+            <div class="col-xs-12">
+              
+              <div style="border:0px solid #000; padding:20px; text-align:center">
+
+<svg id="senate_svg" width="100%" height="300.898px" viewBox="0 -2 595.001 300.898"
+   xml:space="preserve">
+
+<polygon id="ufcp3" class="ufcp" fill="none" stroke="#666666" stroke-miterlimit="10" points="147.487,139.968 138.511,130.673 142.073,118.253 
+  154.61,115.127 163.585,124.422 160.024,136.842 "/>
+
+<polygon id="ufcp2" class="ufcp" fill="none" stroke="#666666" stroke-miterlimit="10" points="139.78,104.395 130.804,95.1 134.366,82.68 146.902,79.554 
+  155.878,88.848 152.317,101.269 "/>
+
+<polygon id="ufcp1" class="ufcp" fill="none" stroke="#666666" stroke-miterlimit="10" points="135.181,70.375 126.205,61.081 129.766,48.661 
+  142.303,45.535 151.279,54.829 147.717,67.25 "/>
+
+<polygon class="ufcp" fill="none" stroke="#666666" stroke-miterlimit="10" points="181.652,148.538 173.481,138.529 178.063,126.449 
+  190.816,124.377 198.988,134.385 194.405,146.466 "/>
+
+<polygon class="ufcp" fill="none" stroke="#666666" stroke-miterlimit="10" points="174.989,117.093 166.818,107.084 171.4,95.003 
+  184.154,92.931 192.325,102.94 187.743,115.021 "/>
+
+<polygon class="ufcp" fill="none" stroke="#666666" stroke-miterlimit="10" points="171.434,84.094 163.263,74.085 167.845,62.004 
+  180.599,59.932 188.77,69.941 184.188,82.022 "/>
+
+<polygon class="ufcp" fill="none" stroke="#666666" stroke-miterlimit="10" points="166.325,52.649 158.154,42.64 162.737,30.559 175.49,28.487 
+  183.661,38.496 179.079,50.577 "/>
+
+<polygon class="ufcp" fill="none" stroke="#666666" stroke-miterlimit="10" points="208.727,132.457 201.315,121.874 206.773,110.163 
+  219.645,109.035 227.057,119.617 221.599,131.329 "/>
+
+<polygon class="ufcp" fill="none" stroke="#666666" stroke-miterlimit="10" points="205.946,100.721 198.533,90.138 203.992,78.427 
+  216.863,77.299 224.276,87.882 218.817,99.593 "/>
+
+<polygon class="ufcp" fill="none" stroke="#666666" stroke-miterlimit="10" points="203.164,68.985 195.751,58.402 201.21,46.691 214.081,45.563 
+  221.494,56.146 216.035,67.857 "/>
+
+<polygon class="ufcp" fill="none" stroke="#666666" stroke-miterlimit="10" points="200.382,37.249 192.969,26.667 198.428,14.956 
+  211.299,13.827 218.712,24.41 213.254,36.121 "/>
+
+<polygon  class="ufcp" fill="none" stroke="#666666" stroke-miterlimit="10" points="242.657,120.746 235.244,110.163 240.703,98.452 
+  253.574,97.324 260.987,107.906 255.528,119.617 "/>
+<polygon  class="ufcp" fill="none" stroke="#666666" stroke-miterlimit="10" points="239.875,89.01 232.462,78.427 237.921,66.716 250.792,65.588 
+  258.205,76.171 252.747,87.882 "/>
+<polygon  class="ufcp" fill="none" stroke="#666666" stroke-miterlimit="10" points="237.093,57.274 229.681,46.691 235.139,34.98 248.011,33.852 
+  255.423,44.435 249.965,56.146 "/>
+
+<polygon class="ufcp" fill="none" stroke="#666666" stroke-miterlimit="10" points="235.093,26.422 227.681,15.839 233.139,4.128 246.011,3 
+  253.423,13.583 247.965,25.294 "/>
+
+<polygon class="ufcp" fill="none" stroke="#666666" stroke-miterlimit="10" points="272.197,118.202 265.736,107.012 272.197,95.822 
+  285.117,95.822 291.578,107.012 285.117,118.202 "/>
+<polygon class="ufcp" fill="none" stroke="#666666" stroke-miterlimit="10" points="272.197,86.344 265.736,75.155 272.197,63.965 
+  285.117,63.965 291.578,75.155 285.117,86.344 "/>
+<polygon class="ufcp" fill="none" stroke="#666666" stroke-miterlimit="10" points="272.197,54.487 265.736,43.297 272.197,32.107 
+  285.117,32.107 291.578,43.297 285.117,54.487 "/>
+
+<polygon class="ufcp" fill="none" stroke="#666666" stroke-miterlimit="10" points="272.197,22.38 265.736,11.19 272.197,0 285.117,0 
+  291.578,11.19 285.117,22.38 "/>
+
+<polygon class="ufcp" fill="none" stroke="#666666" stroke-miterlimit="10" points="306.903,118.202 300.443,107.012 306.903,95.822 
+  319.824,95.822 326.284,107.012 319.824,118.202 "/>
+<polygon class="ufcp" fill="none" stroke="#666666" stroke-miterlimit="10" points="306.903,86.344 300.443,75.155 306.903,63.965 
+  319.824,63.965 326.284,75.155 319.824,86.344 "/>
+<polygon  class="ufcp" fill="none" stroke="#666666" stroke-miterlimit="10" points="306.903,54.487 300.443,43.297 306.903,32.107 
+  319.824,32.107 326.284,43.297 319.824,54.487 "/>
+
+<polygon class="ufcp" fill="none" stroke="#666666" stroke-miterlimit="10" points="306.903,22.38 300.443,11.19 306.903,0 319.824,0 
+  326.284,11.19 319.824,22.38 "/>
+
+<polygon class="ufcp" fill="none" stroke="#666666" stroke-miterlimit="10" points="338.777,124.725 333.318,113.014 340.731,102.431 
+  353.602,103.56 359.061,115.271 351.648,125.853 "/>
+<polygon class="ufcp" fill="none" stroke="#666666" stroke-miterlimit="10" points="341.559,92.989 336.1,81.278 343.513,70.696 356.384,71.824 
+  361.843,83.535 354.43,94.118 "/>
+<polygon class="ufcp" fill="none" stroke="#666666" stroke-miterlimit="10" points="344.34,61.254 338.882,49.543 346.295,38.96 359.166,40.088 
+  364.625,51.799 357.212,62.382 "/>
+<polyline class="ufcp" fill="none" stroke="#666666" stroke-miterlimit="10" points="349.076,7.224 361.948,8.352 367.406,20.063 359.994,30.646 
+  347.122,29.518 341.664,17.807 349.076,7.224 "/>
+
+<polygon class="ufcp" fill="none" stroke="#666666" stroke-miterlimit="10" points="371.929,137.022 366.471,125.311 373.884,114.729 
+  386.755,115.857 392.214,127.568 384.801,138.151 "/>
+<polygon class="ufcp" fill="none" stroke="#666666" stroke-miterlimit="10" points="374.711,105.287 369.253,93.576 376.665,82.993 
+  389.537,84.121 394.995,95.832 387.583,106.415 "/>
+<polygon class="ufcp" fill="none" stroke="#666666" stroke-miterlimit="10" points="377.493,73.551 372.034,61.84 379.447,51.257 392.318,52.385 
+  397.777,64.096 390.364,74.679 "/>
+<polygon class="ufcp" fill="none" stroke="#666666" stroke-miterlimit="10" points="380.275,41.815 374.816,30.104 382.229,19.521 395.1,20.65 
+  400.559,32.361 393.146,42.943 "/>
+
+  <polygon class="ufcp" fill="none" stroke="#666666" stroke-miterlimit="10" points="406.079,119.217 401.497,107.136 409.668,97.127 
+  422.422,99.199 427.004,111.28 418.833,121.289 "/>
+<polygon class="ufcp" fill="none" stroke="#666666" stroke-miterlimit="10" points="411.188,87.772 406.606,75.691 414.777,65.682 427.53,67.754 
+  432.113,79.835 423.942,89.844 "/>
+<polygon class="ufcp" fill="none" stroke="#666666" stroke-miterlimit="10" points="416.297,56.327 411.715,44.246 419.886,34.237 
+  432.639,36.309 437.222,48.39 429.05,58.399 "/>
+
+
+
+
+
+
+
+<polygon fill="#FF6600" points="272.197,150.059 265.736,138.869 272.197,127.68 285.117,127.68 291.578,138.869 285.117,150.059 
+  "/>
+
+<polygon fill="#CC0000" points="306.903,150.059 300.443,138.869 306.903,127.68 319.824,127.68 326.284,138.869 319.824,150.059 
+  "/>
+
+<polygon fill="#FF6600" points="240.331,152.481 232.918,141.899 238.377,130.188 251.248,129.059 258.661,139.642 253.202,151.353 
+  "/>
+
+<polygon fill="#3399CC" points="213.063,164.193 205.651,153.61 211.109,141.899 223.98,140.77 231.393,151.353 225.935,163.064 "/>
+
+
+
+
+
+
+<polygon fill="#CC0000" points="335.995,156.461 330.536,144.75 337.949,134.167 350.821,135.295 356.279,147.006 348.866,157.589 
+  "/>
+
+<polygon fill="#CC0000" points="369.148,168.758 363.689,157.047 371.102,146.464 383.973,147.593 389.432,159.304 382.019,169.886 
+  "/>
+
+<polygon fill="#CC0000" points="394.308,185.215 389.725,173.134 397.896,163.126 410.65,165.198 415.232,177.278 407.061,187.287 
+  "/>
+<polygon fill="#CC0000" points="400.97,150.662 396.388,138.581 404.559,128.572 417.313,130.644 421.895,142.725 413.724,152.734 
+  "/>
+
+
+
+
+
+  <polygon fill="#3399CC" points="188.315,183.091 180.143,173.083 184.726,161.002 197.479,158.93 205.651,168.939 201.068,181.019 
+  "/>
+
+
+
+<polygon fill="#3399CC" points="165.009,209.006 156.034,199.712 159.595,187.291 172.132,184.165 181.108,193.46 177.546,205.88 
+  "/>
+<polygon fill="#3399CC" points="158.302,173.987 149.326,164.693 152.888,152.272 165.425,149.146 174.4,158.441 170.839,170.861 
+  "/>
+
+
+<polygon fill="#3399CC" points="107.165,94.046 98.19,84.752 101.751,72.332 114.288,69.206 123.264,78.5 119.702,90.921 "/>
+<polygon fill="#3399CC" points="78.586,121.455 69.61,112.161 73.172,99.74 85.708,96.614 94.684,105.909 91.123,118.329 "/>
+<polygon fill="#3399CC" points="113.537,129.513 104.561,120.219 108.123,107.799 120.659,104.673 129.635,113.967 126.074,126.388 
+  "/>
+
+<polygon fill="#CC0000" points="415.492,207.398 411.931,194.978 420.907,185.683 433.444,188.809 437.005,201.229 428.029,210.524 
+  "/>
+<polygon fill="#CC0000" points="426.305,174.933 422.744,162.513 431.719,153.218 444.256,156.344 447.818,168.764 438.842,178.059 
+  "/>
+<polygon fill="#CC0000" points="432.458,139.36 428.897,126.939 437.873,117.645 450.409,120.771 453.971,133.191 444.995,142.485 
+  "/>
+<polygon fill="#CC0000" points="440.166,108.449 436.604,96.028 445.58,86.734 458.117,89.86 461.678,102.28 452.702,111.574 "/>
+<polygon fill="#CC0000" points="447.873,77.537 444.311,65.117 453.287,55.823 465.824,58.949 469.385,71.369 460.41,80.663 "/>
+<polygon fill="#CC0000" points="432.458,234.852 428.897,222.432 437.873,213.138 450.409,216.264 453.971,228.684 444.995,237.978 
+  "/>
+<polygon fill="#CC0000" points="444.995,266.192 441.434,253.772 450.409,244.477 462.946,247.603 466.508,260.023 457.532,269.318 
+  "/>
+<polygon fill="#CC0000" points="490.221,266.306 477.433,264.458 472.64,252.459 480.635,242.308 493.423,244.157 498.216,256.156 
+  "/>
+<polygon fill="#CC0000" points="520.265,266.306 507.477,264.458 502.684,252.459 510.679,242.308 523.467,244.157 528.26,256.156 
+  "/>
+<polygon fill="#CC0000" points="552.381,263.198 539.594,261.349 534.801,249.351 542.796,239.2 555.584,241.049 560.376,253.048 
+  "/>
+<polygon fill="#CC0000" points="582.944,261.644 570.156,259.795 565.363,247.796 573.358,237.646 586.146,239.495 590.939,251.494 
+  "/>
+<polygon fill="#CC0000" points="453.583,300.537 447.438,289.171 454.209,278.166 467.125,278.527 473.27,289.893 466.499,300.898 
+  "/>
+<polygon fill="#CC0000" points="484.664,300.537 478.519,289.171 485.289,278.166 498.205,278.527 504.35,289.893 497.579,300.898 
+  "/>
+<polygon fill="#CC0000" points="514.19,300.537 508.045,289.171 514.816,278.166 527.732,278.527 533.877,289.893 527.106,300.898 
+  "/>
+<polygon fill="#CC0000" points="545.271,300.537 539.126,289.171 545.896,278.166 558.812,278.527 564.957,289.893 558.186,300.898 
+  "/>
+<polygon fill="#CC0000" points="575.315,300.537 569.17,289.171 575.941,278.166 588.856,278.527 595.001,289.893 588.231,300.898 
+  "/>
+<polygon fill="#CC0000" points="447.873,200.315 444.311,187.895 453.287,178.601 465.824,181.726 469.385,194.147 460.41,203.441 
+  "/>
+<polygon fill="#CC0000" points="479.351,194.978 475.789,182.558 484.765,173.263 497.302,176.389 500.863,188.809 491.888,198.104 
+  "/>
+<polygon fill="#CC0000" points="511.985,190.316 508.424,177.895 517.399,168.601 529.936,171.727 533.498,184.147 524.522,193.442 
+  "/>
+<polygon fill="#CC0000" points="544.731,186.69 541.169,174.269 550.145,164.975 562.682,168.101 566.243,180.521 557.268,189.815 
+  "/>
+<polygon fill="#CC0000" points="465.239,232.169 461.678,219.749 470.654,210.455 483.19,213.58 486.752,226.001 477.776,235.295 
+  "/>
+<polygon fill="#CC0000" points="496.32,228.612 492.758,216.192 501.734,206.898 514.271,210.024 517.832,222.444 508.857,231.738 
+  "/>
+<polygon fill="#CC0000" points="526.976,224.468 523.414,212.048 532.39,202.754 544.927,205.88 548.488,218.3 539.513,227.594 "/>
+<polygon fill="#CC0000" points="558.556,222.432 554.995,210.012 563.971,200.718 576.507,203.843 580.069,216.264 571.093,225.558 
+  "/>
+<polygon fill="#3399CC" points="150.006,240.532 141.031,231.238 144.592,218.818 157.129,215.692 166.104,224.986 162.543,237.406 
+  "/>
+<polygon fill="#3399CC" points="137.469,271.872 128.494,262.577 132.055,250.157 144.592,247.031 153.567,256.325 150.006,268.746 
+  "/>
+<polygon fill="#3399CC" points="96.786,258.71 101.579,246.711 114.366,244.862 122.361,255.012 117.569,267.011 104.781,268.86 "/>
+<polygon fill="#3399CC" points="66.741,258.71 71.534,246.711 84.322,244.862 92.317,255.012 87.524,267.011 74.736,268.86 "/>
+<polygon fill="#3399CC" points="34.625,255.602 39.418,243.603 52.205,241.754 60.2,251.904 55.408,263.903 42.62,265.752 "/>
+<polygon fill="#3399CC" points="4.062,254.048 8.855,242.049 21.643,240.2 29.638,250.35 24.845,262.349 12.057,264.198 "/>
+<polygon fill="#3399CC" points="128.502,300.898 121.732,289.893 127.877,278.527 140.792,278.166 147.563,289.171 141.418,300.537 
+  "/>
+<polygon fill="#3399CC" points="97.422,300.898 90.651,289.893 96.796,278.527 109.712,278.166 116.483,289.171 110.338,300.537 "/>
+<polygon fill="#3399CC" points="67.896,300.898 61.125,289.893 67.27,278.527 80.186,278.166 86.956,289.171 80.811,300.537 "/>
+<polygon fill="#3399CC" points="36.815,300.898 30.044,289.893 36.189,278.527 49.105,278.166 55.876,289.171 49.731,300.537 "/>
+<polygon fill="#3399CC" points="6.771,300.898 0,289.893 6.145,278.527 19.061,278.166 25.831,289.171 19.686,300.537 "/>
+<polygon fill="#3399CC" points="117.225,237.849 108.25,228.554 111.811,216.134 124.348,213.008 133.323,222.303 129.762,234.723 
+  "/>
+<polygon fill="#3399CC" points="86.145,234.292 77.169,224.998 80.73,212.577 93.267,209.452 102.243,218.746 98.682,231.166 "/>
+<polygon fill="#3399CC" points="55.489,230.148 46.513,220.854 50.074,208.433 62.611,205.308 71.587,214.602 68.025,227.022 "/>
+<polygon fill="#3399CC" points="23.908,228.112 14.933,218.818 18.494,206.397 31.031,203.271 40.006,212.566 36.445,224.986 "/>
+<polygon fill="#CC0000" points="457.93,164.742 454.369,152.322 463.344,143.027 475.881,146.153 479.442,158.573 470.467,167.868 
+  "/>
+<path fill="#CC0000" d="M491.875,156.168l-2.887-10.069c-0.209-0.728-0.013-1.511,0.513-2.056l7.276-7.535
+  c0.526-0.544,1.302-0.767,2.036-0.584l10.163,2.534c0.734,0.183,1.315,0.744,1.524,1.472l2.887,10.07
+  c0.209,0.728,0.013,1.511-0.513,2.056l-7.276,7.535c-0.526,0.544-1.302,0.767-2.036,0.584l-10.163-2.534
+  C492.664,157.457,492.084,156.896,491.875,156.168z"/>
+<path fill="#CC0000" d="M525.488,149.434l-2.887-10.069c-0.209-0.728-0.013-1.511,0.513-2.056l7.276-7.535
+  c0.526-0.544,1.302-0.767,2.036-0.584l10.163,2.534c0.734,0.183,1.315,0.744,1.524,1.472L547,143.265
+  c0.209,0.728,0.013,1.511-0.513,2.056l-7.276,7.535c-0.526,0.544-1.302,0.767-2.036,0.584l-10.163-2.534
+  C526.278,150.723,525.697,150.162,525.488,149.434z"/>
+<polygon fill="#3399CC" points="132.918,202.441 123.942,193.147 127.504,180.727 140.041,177.601 149.016,186.895 145.455,199.315 
+  "/>
+<polygon fill="#3399CC" points="101.44,197.104 92.464,187.809 96.025,175.389 108.562,172.263 117.538,181.558 113.977,193.978 "/>
+<polygon fill="#3399CC" points="68.805,192.442 59.83,183.147 63.391,170.727 75.928,167.601 84.903,176.896 81.342,189.316 "/>
+<polygon fill="#3399CC" points="36.06,188.816 27.084,179.521 30.645,167.101 43.182,163.975 52.158,173.27 48.597,185.69 "/>
+<polygon fill="#3399CC" points="125.414,164.314 116.439,155.02 120,142.6 132.537,139.474 141.513,148.768 137.951,161.188 "/>
+<path fill="#3399CC" d="M102.482,154.086l-10.163,2.534c-0.734,0.183-1.511-0.039-2.036-0.584l-7.276-7.535
+  c-0.526-0.544-0.721-1.328-0.513-2.056l2.887-10.069c0.209-0.728,0.79-1.289,1.524-1.472l10.163-2.534
+  c0.734-0.183,1.511,0.039,2.036,0.584l7.276,7.535c0.526,0.544,0.721,1.328,0.513,2.056l-2.887,10.069
+  C103.798,153.342,103.217,153.903,102.482,154.086z"/>
+<path fill="#3399CC" d="M68.869,147.352l-10.163,2.534c-0.734,0.183-1.511-0.039-2.036-0.584l-7.276-7.535
+  c-0.526-0.544-0.721-1.328-0.513-2.056l2.887-10.069c0.209-0.728,0.79-1.289,1.524-1.472l10.163-2.534
+  c0.734-0.183,1.511,0.039,2.036,0.584l7.276,7.535c0.526,0.544,0.721,1.328,0.513,2.056l-2.887,10.069
+  C70.184,146.608,69.603,147.169,68.869,147.352z"/>
+<path fill="#CC0000" d="M502.615,120.863l-2.887-10.069c-0.209-0.728-0.013-1.511,0.513-2.056l7.276-7.535
+  c0.526-0.544,1.302-0.767,2.036-0.584l10.163,2.534c0.734,0.183,1.315,0.744,1.524,1.472l2.887,10.069
+  c0.209,0.728,0.013,1.511-0.513,2.056l-7.276,7.535c-0.526,0.544-1.302,0.767-2.036,0.584l-10.163-2.534
+  C503.405,122.151,502.824,121.59,502.615,120.863z"/>
+<polygon fill="#CC0000" points="468.745,129.169 465.184,116.749 474.159,107.454 486.696,110.58 490.258,123 481.282,132.295 "/>
+<polygon fill="#CC0000" points="476.452,98.258 472.891,85.837 481.866,76.543 494.403,79.669 497.965,92.089 488.989,101.384 "/>
+
+
+
+</svg>
+
+              </div>
+
+              
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- senate results end -->
+
+
+      <!-- gubernatorial results start -->
+      <section id="gubernatorial-results" style="padding-bottom:70px;">
+        <div class="container-fluid" style="background:rgba(204,204,204,0.2);margin-top:40px;">
+          <div class="row">
+            <div class="col-xs-12 text-center">
+              <!--<h1 class="aj-h1-v">GUBERNATORIAL RESULTS</h1>-->
+              <h1 class="aj-h1-v">GOVERNOR ELECTION RESULTS</h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 text-center">
+              <p style="margin:30px 0 0 0; font-weight:600; font-size:22px;">12 states will hold governor elections</p>
+            </div>
+          </div>
+
+
+          <div class="row" style="margin-top:0px;">
+            <div class="col-xs-12 text-center">
+
+            <div class="aj-l-p">
+              <div class="svg-container2" style="display:inline-block; width:30px; height:30px;">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" preserveAspectRatio="xMidYMin slice" style="width: 100%; padding-bottom: 69.52%; height: 1px; overflow: visible">
+                  <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3399CC" points="21.793,2.632 28.88,14.906 21.793,27.181 7.62,27.181 
+                  0.533,14.906 7.62,2.632 "/>
+                </svg>
+              </div>
+
+              <h6 style="display:inline-block">Democratic</h6>              
+            </div>
+
+            <div class="aj-l-p">
+              <div class="svg-container2" style="display:inline-block; width:30px; height:30px;">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" preserveAspectRatio="xMidYMin slice" style="width: 100%; padding-bottom: 69.52%; height: 1px; overflow: visible">
+                  <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#CC0000" points="21.793,2.632 28.88,14.906 21.793,27.181 7.62,27.181 
+                  0.533,14.906 7.62,2.632 "/>
+                </svg>
+              </div>
+
+              <h6 style="display:inline-block">Republican</h6>              
+            </div>
+            <!--
+            <div class="aj-l-p">
+              <div class="svg-container2" style="display:inline-block; width:30px; height:30px;">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" preserveAspectRatio="xMidYMin slice" style="width: 100%; padding-bottom: 69.52%; height: 1px; overflow: visible">
+                  <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#FFCC00" points="21.793,2.632 28.88,14.906 21.793,27.181 7.62,27.181 
+                  0.533,14.906 7.62,2.632 "/>
+                </svg>
+              </div>
+
+              <h6 style="display:inline-block">Libertarian</h6>              
+            </div>
+
+            <div class="aj-l-p">
+              <div class="svg-container2" style="display:inline-block; width:30px; height:30px;">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" preserveAspectRatio="xMidYMin slice" style="width: 100%; padding-bottom: 69.52%; height: 1px; overflow: visible">
+                  <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#66CC00" points="21.793,2.632 28.88,14.906 21.793,27.181 7.62,27.181 
+                  0.533,14.906 7.62,2.632 "/>
+                </svg>
+              </div>
+
+              <h6 style="display:inline-block">Green</h6>              
+            </div>
+            -->
+
+
+            </div>
+          </div>
+
+
+
+          <div class="row" style="margin-top:20px;">
+          
+            <div class="col-xs-12" style="border-bottom:1px solid #898989;padding:10px;text-align:center;">
+              <div class="row">
+                <div class="col-md-3 col-md-offset-3 col-xs-6 aj-g-state text-left">
+                  <div class="svg-container2" style="display:inline-block; width:50px; height:50px;margin-right: 5px;">
+                    <img src="assets/img/delaware.svg" style="width:100%"/>
+                  </div>
+                  <span>Delaware</span>
+                </div>
+
+                <div class="col-md-2 col-xs-3 aj-g-cand">
+                  <div class="svg-container2" style="display:inline-block; width:30px; height:30px; margin-top:15px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" preserveAspectRatio="xMidYMin slice" style="width: 100%; padding-bottom: 69.52%; height: 1px; overflow: visible">
+                      <polygon style="stroke:#3399CC; stroke-width:2;" fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" points="21.793,2.632 28.88,14.906 21.793,27.181 7.62,27.181 
+                      0.533,14.906 7.62,2.632 "/>
+                    </svg>
+                  </div>
+                  
+                </div>
+
+                <div class="col-md-2 col-xs-3 aj-g-cand">
+                  <div class="svg-container2" style="display:inline-block; width:30px; height:30px; margin-top:15px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" preserveAspectRatio="xMidYMin slice" style="width: 100%; padding-bottom: 69.52%; height: 1px; overflow: visible">
+                      <polygon style="stroke:#CC0000; stroke-width:2;" fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" points="21.793,2.632 28.88,14.906 21.793,27.181 7.62,27.181 
+                      0.533,14.906 7.62,2.632 "/>
+                    </svg>
+                  </div>
+                  
+                </div>
+
+
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row" style="margin-top:0px;">
+          
+            <div class="col-xs-12" style="border-bottom:1px solid #898989;padding:10px;text-align:center;">
+              <div class="row">
+                <div class="col-md-3 col-md-offset-3 col-xs-6 aj-g-state text-left">
+                  <div class="svg-container2" style="display:inline-block; width:50px; height:50px;margin-right: 5px;">
+                    <img src="assets/img/indiana.svg" style="width:100%"/>
+                  </div>
+                  <span>Indiana</span>
+                </div>
+
+                <div class="col-md-2 col-xs-3 aj-g-cand">
+                  <div class="svg-container2" style="display:inline-block; width:30px; height:30px; margin-top:15px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" preserveAspectRatio="xMidYMin slice" style="width: 100%; padding-bottom: 69.52%; height: 1px; overflow: visible">
+                      <polygon style="stroke:#3399CC; stroke-width:2;" fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" points="21.793,2.632 28.88,14.906 21.793,27.181 7.62,27.181 
+                      0.533,14.906 7.62,2.632 "/>
+                    </svg>
+                  </div>
+                  
+                </div>
+
+                <div class="col-md-2 col-xs-3 aj-g-cand">
+                  <div class="svg-container2" style="display:inline-block; width:30px; height:30px; margin-top:15px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" preserveAspectRatio="xMidYMin slice" style="width: 100%; padding-bottom: 69.52%; height: 1px; overflow: visible">
+                      <polygon style="stroke:#CC0000; stroke-width:2;" fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" points="21.793,2.632 28.88,14.906 21.793,27.181 7.62,27.181 
+                      0.533,14.906 7.62,2.632 "/>
+                    </svg>
+                  </div>
+                  
+                </div>
+
+
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row" style="margin-top:0px;">
+          
+            <div class="col-xs-12" style="border-bottom:1px solid #898989;padding:10px;text-align:center;">
+              <div class="row">
+                <div class="col-md-3 col-md-offset-3 col-xs-6 aj-g-state text-left">
+                  <div class="svg-container2" style="display:inline-block; width:50px; height:50px;margin-right: 5px;">
+                    <img src="assets/img/missouri.svg" style="width:100%"/>
+                  </div>
+                  <span>Missouri</span>
+                </div>
+
+                <div class="col-md-2 col-xs-3 aj-g-cand">
+                  <div class="svg-container2" style="display:inline-block; width:30px; height:30px; margin-top:15px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" preserveAspectRatio="xMidYMin slice" style="width: 100%; padding-bottom: 69.52%; height: 1px; overflow: visible">
+                      <polygon style="stroke:#3399CC; stroke-width:2;" fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" points="21.793,2.632 28.88,14.906 21.793,27.181 7.62,27.181 
+                      0.533,14.906 7.62,2.632 "/>
+                    </svg>
+                  </div>
+                  
+                </div>
+
+                <div class="col-md-2 col-xs-3 aj-g-cand">
+                  <div class="svg-container2" style="display:inline-block; width:30px; height:30px; margin-top:15px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" preserveAspectRatio="xMidYMin slice" style="width: 100%; padding-bottom: 69.52%; height: 1px; overflow: visible">
+                      <polygon style="stroke:#CC0000; stroke-width:2;" fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" points="21.793,2.632 28.88,14.906 21.793,27.181 7.62,27.181 
+                      0.533,14.906 7.62,2.632 "/>
+                    </svg>
+                  </div>
+                  
+                </div>
+
+
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row" style="margin-top:0px;">
+          
+            <div class="col-xs-12" style="border-bottom:1px solid #898989;padding:10px;text-align:center;">
+              <div class="row">
+                <div class="col-md-3 col-md-offset-3 col-xs-6 aj-g-state text-left">
+                  <div class="svg-container2" style="display:inline-block; width:50px; height:50px;margin-right: 5px;">
+                    <img src="assets/img/montana.svg" style="width:100%"/>
+                  </div>
+                  <span>Montana</span>
+                </div>
+
+                <div class="col-md-2 col-xs-3 aj-g-cand">
+                  <div class="svg-container2" style="display:inline-block; width:30px; height:30px; margin-top:15px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" preserveAspectRatio="xMidYMin slice" style="width: 100%; padding-bottom: 69.52%; height: 1px; overflow: visible">
+                      <polygon style="stroke:#3399CC; stroke-width:2;" fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" points="21.793,2.632 28.88,14.906 21.793,27.181 7.62,27.181 
+                      0.533,14.906 7.62,2.632 "/>
+                    </svg>
+                  </div>
+                  
+                </div>
+
+                <div class="col-md-2 col-xs-3 aj-g-cand">
+                  <div class="svg-container2" style="display:inline-block; width:30px; height:30px; margin-top:15px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" preserveAspectRatio="xMidYMin slice" style="width: 100%; padding-bottom: 69.52%; height: 1px; overflow: visible">
+                      <polygon style="stroke:#CC0000; stroke-width:2;" fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" points="21.793,2.632 28.88,14.906 21.793,27.181 7.62,27.181 
+                      0.533,14.906 7.62,2.632 "/>
+                    </svg>
+                  </div>
+                  
+                </div>
+
+
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row" style="margin-top:0px;">
+          
+            <div class="col-xs-12" style="border-bottom:1px solid #898989;padding:10px;text-align:center;">
+              <div class="row">
+                <div class="col-md-3 col-md-offset-3 col-xs-6 aj-g-state text-left">
+                  <div class="svg-container2" style="display:inline-block; width:50px; height:50px;margin-right: 5px;">
+                    <img src="assets/img/new-hampshire.svg" style="width:100%"/>
+                  </div>
+                  <span>New Hampshire</span>
+                </div>
+
+                <div class="col-md-2 col-xs-3 aj-g-cand">
+                  <div class="svg-container2" style="display:inline-block; width:30px; height:30px; margin-top:15px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" preserveAspectRatio="xMidYMin slice" style="width: 100%; padding-bottom: 69.52%; height: 1px; overflow: visible">
+                      <polygon style="stroke:#3399CC; stroke-width:2;" fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" points="21.793,2.632 28.88,14.906 21.793,27.181 7.62,27.181 
+                      0.533,14.906 7.62,2.632 "/>
+                    </svg>
+                  </div>
+                  
+                </div>
+
+                <div class="col-md-2 col-xs-3 aj-g-cand">
+                  <div class="svg-container2" style="display:inline-block; width:30px; height:30px; margin-top:15px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" preserveAspectRatio="xMidYMin slice" style="width: 100%; padding-bottom: 69.52%; height: 1px; overflow: visible">
+                      <polygon style="stroke:#CC0000; stroke-width:2;" fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" points="21.793,2.632 28.88,14.906 21.793,27.181 7.62,27.181 
+                      0.533,14.906 7.62,2.632 "/>
+                    </svg>
+                  </div>
+                  
+                </div>
+
+
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row" style="margin-top:0px;">
+          
+            <div class="col-xs-12" style="border-bottom:1px solid #898989;padding:10px;text-align:center;">
+              <div class="row">
+                <div class="col-md-3 col-md-offset-3 col-xs-6 aj-g-state text-left">
+                  <div class="svg-container2" style="display:inline-block; width:50px; height:50px;margin-right: 5px;">
+                    <img src="assets/img/north-carolina.svg" style="width:100%"/>
+                  </div>
+                  <span>North Carolina</span>
+                </div>
+
+                <div class="col-md-2 col-xs-3 aj-g-cand">
+                  <div class="svg-container2" style="display:inline-block; width:30px; height:30px; margin-top:15px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" preserveAspectRatio="xMidYMin slice" style="width: 100%; padding-bottom: 69.52%; height: 1px; overflow: visible">
+                      <polygon style="stroke:#3399CC; stroke-width:2;" fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" points="21.793,2.632 28.88,14.906 21.793,27.181 7.62,27.181 
+                      0.533,14.906 7.62,2.632 "/>
+                    </svg>
+                  </div>
+                  
+                </div>
+
+                <div class="col-md-2 col-xs-3 aj-g-cand">
+                  <div class="svg-container2" style="display:inline-block; width:30px; height:30px; margin-top:15px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" preserveAspectRatio="xMidYMin slice" style="width: 100%; padding-bottom: 69.52%; height: 1px; overflow: visible">
+                      <polygon style="stroke:#CC0000; stroke-width:2;" fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" points="21.793,2.632 28.88,14.906 21.793,27.181 7.62,27.181 
+                      0.533,14.906 7.62,2.632 "/>
+                    </svg>
+                  </div>
+                  
+                </div>
+
+
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row" style="margin-top:0px;">
+          
+            <div class="col-xs-12" style="border-bottom:1px solid #898989;padding:10px;text-align:center;">
+              <div class="row">
+                <div class="col-md-3 col-md-offset-3 col-xs-6 aj-g-state text-left">
+                  <div class="svg-container2" style="display:inline-block; width:50px; height:50px;margin-right: 5px;">
+                    <img src="assets/img/north-dakota.svg" style="width:100%"/>
+                  </div>
+                  <span>North Dakota</span>
+                </div>
+
+                <div class="col-md-2 col-xs-3 aj-g-cand">
+                  <div class="svg-container2" style="display:inline-block; width:30px; height:30px; margin-top:15px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" preserveAspectRatio="xMidYMin slice" style="width: 100%; padding-bottom: 69.52%; height: 1px; overflow: visible">
+                      <polygon style="stroke:#3399CC; stroke-width:2;" fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" points="21.793,2.632 28.88,14.906 21.793,27.181 7.62,27.181 
+                      0.533,14.906 7.62,2.632 "/>
+                    </svg>
+                  </div>
+                  
+                </div>
+
+                <div class="col-md-2 col-xs-3 aj-g-cand">
+                  <div class="svg-container2" style="display:inline-block; width:30px; height:30px; margin-top:15px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" preserveAspectRatio="xMidYMin slice" style="width: 100%; padding-bottom: 69.52%; height: 1px; overflow: visible">
+                      <polygon style="stroke:#CC0000; stroke-width:2;" fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" points="21.793,2.632 28.88,14.906 21.793,27.181 7.62,27.181 
+                      0.533,14.906 7.62,2.632 "/>
+                    </svg>
+                  </div>
+                  
+                </div>
+
+
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row" style="margin-top:0px;">
+          
+            <div class="col-xs-12" style="border-bottom:1px solid #898989;padding:10px;text-align:center;">
+              <div class="row">
+                <div class="col-md-3 col-md-offset-3 col-xs-6 aj-g-state text-left">
+                  <div class="svg-container2" style="display:inline-block; width:50px; height:50px;margin-right: 5px;">
+                    <img src="assets/img/oregon.svg" style="width:100%"/>
+                  </div>
+                  <span>Oregon</span>
+                </div>
+
+                <div class="col-md-2 col-xs-3 aj-g-cand">
+                  <div class="svg-container2" style="display:inline-block; width:30px; height:30px; margin-top:15px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" preserveAspectRatio="xMidYMin slice" style="width: 100%; padding-bottom: 69.52%; height: 1px; overflow: visible">
+                      <polygon style="stroke:#3399CC; stroke-width:2;" fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" points="21.793,2.632 28.88,14.906 21.793,27.181 7.62,27.181 
+                      0.533,14.906 7.62,2.632 "/>
+                    </svg>
+                  </div>
+                  
+                </div>
+
+                <div class="col-md-2 col-xs-3 aj-g-cand">
+                  <div class="svg-container2" style="display:inline-block; width:30px; height:30px; margin-top:15px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" preserveAspectRatio="xMidYMin slice" style="width: 100%; padding-bottom: 69.52%; height: 1px; overflow: visible">
+                      <polygon style="stroke:#CC0000; stroke-width:2;" fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" points="21.793,2.632 28.88,14.906 21.793,27.181 7.62,27.181 
+                      0.533,14.906 7.62,2.632 "/>
+                    </svg>
+                  </div>
+                  
+                </div>
+
+
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row" style="margin-top:0px;">
+          
+            <div class="col-xs-12" style="border-bottom:1px solid #898989;padding:10px;text-align:center;">
+              <div class="row">
+                <div class="col-md-3 col-md-offset-3 col-xs-6 aj-g-state text-left">
+                  <div class="svg-container2" style="display:inline-block; width:50px; height:50px;margin-right: 5px;">
+                    <img src="assets/img/utah.svg" style="width:100%"/>
+                  </div>
+                  <span>Utah</span>
+                </div>
+
+                <div class="col-md-2 col-xs-3 aj-g-cand">
+                  <div class="svg-container2" style="display:inline-block; width:30px; height:30px; margin-top:15px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" preserveAspectRatio="xMidYMin slice" style="width: 100%; padding-bottom: 69.52%; height: 1px; overflow: visible">
+                      <polygon style="stroke:#3399CC; stroke-width:2;" fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" points="21.793,2.632 28.88,14.906 21.793,27.181 7.62,27.181 
+                      0.533,14.906 7.62,2.632 "/>
+                    </svg>
+                  </div>
+                  
+                </div>
+
+                <div class="col-md-2 col-xs-3 aj-g-cand">
+                  <div class="svg-container2" style="display:inline-block; width:30px; height:30px; margin-top:15px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" preserveAspectRatio="xMidYMin slice" style="width: 100%; padding-bottom: 69.52%; height: 1px; overflow: visible">
+                      <polygon style="stroke:#CC0000; stroke-width:2;" fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" points="21.793,2.632 28.88,14.906 21.793,27.181 7.62,27.181 
+                      0.533,14.906 7.62,2.632 "/>
+                    </svg>
+                  </div>
+                  
+                </div>
+
+
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row" style="margin-top:0px;">
+          
+            <div class="col-xs-12" style="border-bottom:1px solid #898989;padding:10px;text-align:center;">
+              <div class="row">
+                <div class="col-md-3 col-md-offset-3 col-xs-6 aj-g-state text-left">
+                  <div class="svg-container2" style="display:inline-block; width:50px; height:50px;margin-right: 5px;">
+                    <img src="assets/img/vermont.svg" style="width:100%"/>
+                  </div>
+                  <span>Vermont</span>
+                </div>
+
+                <div class="col-md-2 col-xs-3 aj-g-cand">
+                  <div class="svg-container2" style="display:inline-block; width:30px; height:30px; margin-top:15px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" preserveAspectRatio="xMidYMin slice" style="width: 100%; padding-bottom: 69.52%; height: 1px; overflow: visible">
+                      <polygon style="stroke:#3399CC; stroke-width:2;" fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" points="21.793,2.632 28.88,14.906 21.793,27.181 7.62,27.181 
+                      0.533,14.906 7.62,2.632 "/>
+                    </svg>
+                  </div>
+                  
+                </div>
+
+                <div class="col-md-2 col-xs-3 aj-g-cand">
+                  <div class="svg-container2" style="display:inline-block; width:30px; height:30px; margin-top:15px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" preserveAspectRatio="xMidYMin slice" style="width: 100%; padding-bottom: 69.52%; height: 1px; overflow: visible">
+                      <polygon style="stroke:#CC0000; stroke-width:2;" fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" points="21.793,2.632 28.88,14.906 21.793,27.181 7.62,27.181 
+                      0.533,14.906 7.62,2.632 "/>
+                    </svg>
+                  </div>
+                  
+                </div>
+
+
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row" style="margin-top:0px;">
+          
+            <div class="col-xs-12" style="border-bottom:1px solid #898989;padding:10px;text-align:center;">
+              <div class="row">
+                <div class="col-md-3 col-md-offset-3 col-xs-6 aj-g-state text-left">
+                  <div class="svg-container2" style="display:inline-block; width:50px; height:50px;margin-right: 5px;">
+                    <img src="assets/img/washington.svg" style="width:100%"/>
+                  </div>
+                  <span>Washington</span>
+                </div>
+
+                <div class="col-md-2 col-xs-3 aj-g-cand">
+                  <div class="svg-container2" style="display:inline-block; width:30px; height:30px; margin-top:15px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" preserveAspectRatio="xMidYMin slice" style="width: 100%; padding-bottom: 69.52%; height: 1px; overflow: visible">
+                      <polygon style="stroke:#3399CC; stroke-width:2;" fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" points="21.793,2.632 28.88,14.906 21.793,27.181 7.62,27.181 
+                      0.533,14.906 7.62,2.632 "/>
+                    </svg>
+                  </div>
+                  
+                </div>
+
+                <div class="col-md-2 col-xs-3 aj-g-cand">
+                  <div class="svg-container2" style="display:inline-block; width:30px; height:30px; margin-top:15px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" preserveAspectRatio="xMidYMin slice" style="width: 100%; padding-bottom: 69.52%; height: 1px; overflow: visible">
+                      <polygon style="stroke:#CC0000; stroke-width:2;" fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" points="21.793,2.632 28.88,14.906 21.793,27.181 7.62,27.181 
+                      0.533,14.906 7.62,2.632 "/>
+                    </svg>
+                  </div>
+                  
+                </div>
+
+
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row" style="margin-top:0px;">
+          
+            <div class="col-xs-12" style="border-bottom:1px solid #898989;padding:10px;text-align:center;">
+              <div class="row">
+                <div class="col-md-3 col-md-offset-3 col-xs-6 aj-g-state text-left">
+                  <div class="svg-container2" style="display:inline-block; width:50px; height:50px;margin-right: 5px;">
+                    <img src="assets/img/west-virginia.svg" style="width:100%"/>
+                  </div>
+                  <span>West Virginia</span>
+                </div>
+
+                <div class="col-md-2 col-xs-3 aj-g-cand">
+                  <div class="svg-container2" style="display:inline-block; width:30px; height:30px; margin-top:15px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" preserveAspectRatio="xMidYMin slice" style="width: 100%; padding-bottom: 69.52%; height: 1px; overflow: visible">
+                      <polygon style="stroke:#3399CC; stroke-width:2;" fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" points="21.793,2.632 28.88,14.906 21.793,27.181 7.62,27.181 
+                      0.533,14.906 7.62,2.632 "/>
+                    </svg>
+                  </div>
+                  
+                </div>
+
+                <div class="col-md-2 col-xs-3 aj-g-cand">
+                  <div class="svg-container2" style="display:inline-block; width:30px; height:30px; margin-top:15px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" preserveAspectRatio="xMidYMin slice" style="width: 100%; padding-bottom: 69.52%; height: 1px; overflow: visible">
+                      <polygon style="stroke:#CC0000; stroke-width:2;" fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" points="21.793,2.632 28.88,14.906 21.793,27.181 7.62,27.181 
+                      0.533,14.906 7.62,2.632 "/>
+                    </svg>
+                  </div>
+                  
+                </div>
+
+
+              </div>
+            </div>
+
+          </div>
+
+          </div>
+        </div>
+      </section>
+      <!-- gubernatorial results end -->
+
+      
+
+      <!-- footer start -->
+      <footer>
+        <!-- producted by ajlabs start -->
+        <div class="container-fluid" id="footer-secondary1" style="background:rgba(204,204,204,0.25);">
+          <div class="row">
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12">
+                  <h1 class="aj-fs-ajlc"><a href="#">Produced by @AJLabs</a></h1>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <!-- produced by ajlabs end -->
+
+        <!-- social footer start -->
+        <div class="container-fluid" id="footer-secondary2" style="background:#222525; padding:20px 20px 20px 0">
+          <div class="row">
+            <div class="container">
+              <div class="row">
+
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                  <nav class="aj-fs-nav1"> 
+                  <a href="#">About</a>
+                  <a href="#">Connect</a>
+                  <a href="#">Newsletter</a>
+                </nav>
+                </div>
+
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                  <nav class="aj-fs-nav2"> 
+                  
+                  <a href="#" class="icon icon-google-plus"></a>
+                  <a href="#" class="icon icon-rss"></a>
+                  <a href="#" class="icon icon-youtube-play"></a>
+                  <a href="#" class="icon icon-instagram"></a>
+                  <a href="#" class="icon icon-twitter"></a>
+                  <a href="#" class="icon icon-facebook"></a>
+                  
+                </nav>
+
+                </div>
+
+                <div class="clearfix"></div>
+
+                
+
+                
+
+              
+                
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <!-- social footer end -->
+
+        <!-- primary footer start -->
+        <div class="container-fluid" id="footer-primary" style="background:#000; padding-top:25px; padding-bottom:40px;">
+          <div class="row">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-6">
+                  <h2 style="margin:20px 0 20px 0;">Our Network</h2>
+                  <nav>
+                    <a href="#">Al Jazeera Center for Studies</a>
+                    <a href="#">Al Jazeera Forum</a>
+                    <a href="#">Al Jazeera Training Center</a>
+                    <a href="#">Al Jazeera Film Festival</a>
+                    <a href="#">Al Jazeera Learning</a>
+                  </nav>
+                  
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-6">
+                  <h2 style="margin:20px 0 20px 0;">Our Channels</h2>
+                  <div class="row">
+                    <nav>
+                      <div class="col-sm-6 col-xs-12">
+                        <a href="#">Al Jazeera Arabic</a>
+                        <a href="#">Al Jazeera English</a>
+                        <a href="#">AJ+</a>
+                        <a href="#">Al Jazeera Balkans</a>
+                        <a href="#">Al Jazeera Turk</a>
+                      </div>
+
+                      <div class="col-sm-6 col-xs-12">
+                        <a href="#">Al Jazeera Mubasher</a>
+                        <a href="#">Al Jazeera Documentary</a>
+                        <a href="#">Jeem TV</a>
+                        <a href="#">Baraem</a>
+                      </div>
+                    </nav>
+                  </div>
+
+                </div>
+
+                <div class="col-md-5 col-sm-12 aj-f-cred">
+                  <a href="#" style=""><img src="assets/img/aj-logo-inverse.png" style="width:130px;"/></a>
+                  <p style="color:#666;margin-top:-5px;">© 2015 Al Jazeera Media Network. All rights reserved.</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- primary footer end -->
+      </footer>
+      <!-- footer end -->
+
+    </div>
+    <!-- content end -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+
+    <script src="assets/js/d3.v4.min.js"></script>
+    <script src="assets/js/topojson.v1.min.js"></script>
+    <script src="assets/js/cartogram.js"></script>
+
+    <script src="assets/js/hammer.2.0.4.js"></script>
+    <script src="assets/js/wptr.1.1.js"></script>
+
+    <script src="assets/js/progressbar.min.js"></script>
+
+    <script src="assets/js/app.js"></script>
+
+    <!--<script src="assets/js/raphael.min.js"></script>
+    <script src="map.js"></script>-->
+    
+  </body>
+</html>

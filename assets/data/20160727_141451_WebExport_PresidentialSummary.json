@@ -1,0 +1,39 @@
+{
+  "PrecinctPct": 99,
+  "Test": true,
+  "Candidates": [
+    {
+      "PolId": 1746,
+      "First": "Hillary",
+      "Middle": "Rodham",
+      "Last": "Clinton",
+      "Full": "Hillary Clinton",
+      "Party": "DEM",
+      "PopVote": 62771276,
+      "PopPct": 51,
+      "StatesWon": 23,
+      "ElectWon": 278,
+      "StatesLead": 3,
+      "ElectLead": 48,
+      "Winner": "X",
+      "StatesWonList": "CA,CO,CT,DE,DC,FL,HI,IL,ME,MD,MA,MI,MN,NV,NH,NJ,NM,OH,PA,RI,VT,VA,WI"
+    },
+    {
+      "PolId": 8639,
+      "First": "Donald",
+      "Last": "Trump",
+      "Full": "Donald Trump",
+      "Party": "GOP",
+      "PopVote": 60929902,
+      "PopPct": 49,
+      "StatesWon": 25,
+      "ElectWon": 212,
+      "StatesLead": 0,
+      "ElectLead": 0,
+      "Winner": "",
+      "StatesWonList": "AL,AK,AZ,AR,GA,ID,IN,IA,KS,KY,LA,MS,MO,MT,NE,NC,ND,OK,SC,SD,TN,TX,UT,WV,WY"
+    }
+  ],
+  "StatesYetToBeProjected": "NY,OR,WA",
+  "StatesTooCloseToCallList": "AL,CO,DE"
+}
